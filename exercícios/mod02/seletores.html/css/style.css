@@ -1,0 +1,15 @@
+h1{ font: italic bold 3em helvetica; color: crimson; }
+
+.t1{ font: normal bold 2em helvetica; color: darkorange; }
+.t2{ font: normal bold 2em helvetica; color: chocolate; }  
+.c1{ font: normal normal 0.8em arial; color: black; }
+.c2{ font: normal normal 0.8em arial; color: black; }
+
+/* ocultar conteudo 01 e 02 */
+div > .c1{
+    display: none;
+}
+
+div:hover > .c1{
+    display:block;
+}

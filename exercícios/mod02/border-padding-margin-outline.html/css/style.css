@@ -1,0 +1,24 @@
+*{ margin: 0; padding: 0; }
+
+#caixa{   
+    /* ShortHand */
+
+    /*ordem(border): tamanho, estilo e cor*/
+    border: 10px solid darkslategray;
+    /*ordem(padding): top, right, bottom e left(sentido anti-horário)*/ 
+    /*padding: 10px 15px 10px 15px;*/
+    /*
+        ou
+        ordem(padding): top / bottom e right / left(sentido anti-horário)
+    */
+    padding: 10px 15px;
+    /*ordem(margin): top, right, bottom e left(sentido anti-horário)*/
+    /*margin: 15px 10px 15px 10px;*/
+    /*
+        ou
+        ordem(margin): top / bottom e right / left(sentido anti-horário)
+    */
+    margin: 15px 10px;
+    /*ordem(outline): tamanho, estilo e cor*/
+    outline: 5px dashed salmon;
+}

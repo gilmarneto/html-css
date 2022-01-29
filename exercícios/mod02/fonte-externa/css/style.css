@@ -1,0 +1,8 @@
+/* Fonte Externa */
+@font-face {
+    font-family: Joystick;
+    src: url('../fonts/Joystick.ttf') format('truetype');
+}
+
+h1{ font-family: Joystick; }
+p{ text-indent: 40px; }
