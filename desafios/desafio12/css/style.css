@@ -10,8 +10,7 @@
 
 /* passion one */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-/* sriracha */
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 /* variáveis - fontes */
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -28,10 +27,13 @@ html, body{
 header{
     background-color: black;
 }
-
-header h1{
+header > h1{
     color: white;
-    font-family: var(--fonte2);
+    font-family: 'Passion One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+
     font-size: 6.5vw;
     font-variant: small-caps;
     padding-top: 50px;
