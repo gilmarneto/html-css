@@ -9,19 +9,19 @@
 /* importar fontes */
 
 /* passion one */
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 /* variáveis - fontes */
 :root{
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Patua One', cursive;
+    --fonte03: 'Sriracha', cursive;
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
-    font-family: var(--fonte1);
+    font-family: var(--fonte01);
 }
 
 header{
@@ -29,7 +29,7 @@ header{
 }
 header > h1{
     color: white;
-    font-family: 'Passion One', cursive;
+    font-family: var(--fonte02);
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -56,7 +56,7 @@ header a:hover, footer a:hover{
 }
 
 section{
-    font-family: var(--fonte3);
+    font-family: var(--fonte03);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
