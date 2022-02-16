@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilo css -->
+    <style>
+        *{ margin: 0; padding: 0; text-decoration: none; font-family: 'Verdana';}
+
+        body{ background-color: bisque; }
+
+        header{ background-color: cadetblue; text-align: center; }
+        header h1{ color: white; padding-bottom: 10px;}
+
+        nav{ padding-bottom: 10px; }
+        nav a{ color: white; padding: 4px; font-weight: bold; }
+        .teste:target > 
+        header h1{ color: black; }
+
+        main{ padding: 15px; }
+        main p{ text-align: justify; }
+    </style>
+    <title>Teste</title>
+</head>
+<body>
+    <header>
+        <h1 id="test01">Teste</h1>
+        <nav>
+            <a href="#test01" class="teste">Teste-01</a>
+            <a id="test02" href="#test02" class="teste">Teste-02</a>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit repellendus reprehenderit aliquid sint cumque dolorum! Nostrum natus nam velit hic, pariatur recusandae? Aut asperiores labore non dolor quo fugit repellendus.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, aliquam officia repellendus aperiam itaque doloremque incidunt illum saepe nam deserunt deleniti delectus harum id fugit! Quo enim rem non vitae.
+        </p>
+    </main>
+</body>
+</html>
