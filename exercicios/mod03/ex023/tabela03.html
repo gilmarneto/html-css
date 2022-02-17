@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- estilo css -->
     <style>
-        *{ margin: 0; padding: 0; }
+        *{ margin: 0; padding: 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-        table{ padding: 20px; }
+        caption{ background-color: lightgray; padding: 10px; font-weight: bold; font-size: 1.2em; }
 
-        td, th{ padding: 10px; border: 1px solid black; text-align: left;}
+        table{ width: 500px; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; border-collapse: collapse;  }
+
+        th{ background-color: darkslategrey; color: white; font-weight: bold;}
+
+        td, th{ 
+            padding: 10px; 
+            border: 1px solid black; 
+            text-align: left; 
+        }
         td.numero, th.numero{ text-align: right; }
     </style>
     <title>Tabela03</title>
@@ -29,10 +37,13 @@
     -->
 
     <table>
+        <caption>
+            População da Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th class="numero">População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style= "width: 100px;" class="numero">População</th>
             </tr>
         </thead>
         <tbody>
@@ -147,8 +158,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th class="numero">População Total:</th>
-                <td class="numero">00000000</td>
+                <th scope="row" class="numero">População Total:</th>
+                <th class="numero"><strong>000000</strong></th>
             </tr>
         </tfoot>
     </table>
