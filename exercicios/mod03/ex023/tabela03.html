@@ -10,15 +10,38 @@
 
         caption{ background-color: lightgray; padding: 10px; font-weight: bold; font-size: 1.2em; }
 
-        table{ width: 500px; margin-top: 20px; margin-bottom: 20px; margin-left: 20px; border-collapse: collapse;  }
+        table{ 
+            width: 500px; 
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+            margin-left: 20px; 
+            border-collapse: collapse;  
+            position: relative;
+        }
 
-        th{ background-color: darkslategrey; color: white; font-weight: bold;}
+        th{ 
+            background-color: darkslategrey; 
+            color: white; 
+            font-weight: bold;
+        }
+
+        /* cabeçalho fixo da tabela */
+        thead th{
+            position: sticky;
+            top: -1px;
+        }
 
         td, th{ 
             padding: 10px; 
             border: 1px solid black; 
             text-align: left; 
         }
+
+        /* Tabela de zebrada ímpar(odd) e par(even) */
+        tbody > tr:nth-child(2n){ /* tabela zebrada de 2 em 2 */
+            background-color: rgba(192, 192, 192, 0.541);
+        }
+
         td.numero, th.numero{ text-align: right; }
     </style>
     <title>Tabela03</title>
